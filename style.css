@@ -1,0 +1,188 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: RobotoLI;
+    src: url(Roboto-LightItalic.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.logo {
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.home-direct {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.section1 {
+    background-color: #1F2937;
+    margin: 0;
+    padding-left: 200px;
+    padding-right: 100px;
+    border: 1px solid;
+    padding-bottom: 350px;
+}
+
+
+.inside-nav {
+    list-style-type: none;
+    position: absolute;
+    display: inline-block;
+    top: 1%;
+    right: 4%;
+    overflow: hidden;
+}
+.inside-nav li {
+    display: inline;
+    padding: 10px;
+}
+
+.inside-nav li a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.outside-nav {
+    margin-top: 100px;
+    position: relative;
+    height: 100%;
+}
+
+.outside-nav img {
+    position: absolute;
+    right: 0%;
+    width: 600px;
+    height: 400px;
+    top: 0%;
+}
+
+.outside-nav h1 {
+    font-size: 48px;
+    color: white;
+    margin: 0;
+}
+
+.outside-nav p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
+}
+
+.outside-nav button {
+    border: 2px #3882F6 ;
+    border-radius: 0.5em;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    color: white;
+    background-color:#3882F6 ;
+}
+
+.presec {
+    text-align: center;
+    font-size: 36px;
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.section2 div {
+    width: 100px;
+}
+.section2 div div {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 1rem;
+}
+
+.section2 div p {
+    width: 150px;
+    border: 1px solid white;
+    font-size: 15px;
+
+}
+
+
+/***************/
+.section3 {
+    padding: 15em;
+    background-color: #E5E7EB;
+    position: relative;
+}
+
+.section3 p {
+    font-size: 36px;
+    position: absolute;
+    text-align: center;
+    max-width: 1000px;
+    font-family: RobotoLI;
+    top: 20%;
+    left: 30%;
+}
+
+
+
+
+
+
+
+
+
+.section4 {
+    margin: 5rem;
+}
+.CTObox {
+    background-color: #3882F6;
+    border-radius: 0.5em;
+    padding: 25px;
+    position: relative;
+    width: 1200px;
+    left: 25%;
+    color: white;
+}
+
+.sign-up {
+    position: absolute;
+    right: 20%;
+    top: 30%;
+    border: 2px solid white;
+    border-radius: 0.5em;
+    padding: 5px 25px 5px 25px;
+    font-size: 18px;
+    color: white;
+    background-color:#3882F6 ;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 2em;
+    position: relative;
+}
